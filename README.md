@@ -39,7 +39,7 @@ Sample log4j configuration:
     log4j.appender.EmailAppender.SMTPHost=smtp.gmail.com
     log4j.appender.EmailAppender.SMTPUsername=you@yourdomain.com
     log4j.appender.EmailAppender.SMTPPassword=yourpassword
-    log4j.appender.EmailAppender.From=Your Account &ltyou@yourdomain.com&gt
+    log4j.appender.EmailAppender.From=Your Account <you@yourdomain.com>
     log4j.appender.EmailAppender.To=ops-announce@yourdomain.com
     log4j.appender.EmailAppender.Subject=[ALERT] Warning or error raised!
 
